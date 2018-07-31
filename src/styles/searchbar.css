@@ -1,0 +1,30 @@
+#header{
+  text-align: center;
+}
+#searchbar{
+  display: flex;
+  justify-content:space-evenly;
+  flex-direction: row;
+  margin-bottom:1em;
+}
+
+input{
+  height:20px;
+}
+button{
+  flex:1;
+  height:26px;
+  width: 60px;
+  background-color: darkslategray;
+  color: white;
+}
+button:disabled{
+  background-color: slategray;
+}
+/* Not standard size. This when text starts wrapping */
+@media (max-width: 1020px) {
+  #searchbar{
+    flex-direction: column;
+    text-align:center;
+  }
+}

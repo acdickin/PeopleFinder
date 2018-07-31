@@ -1,0 +1,16 @@
+.load{
+  margin: 5em auto;
+}
+.result{
+  padding:1em;
+  margin:0 10% ;
+}
+.noResult{
+  text-align: center;
+}
+@media (max-width: 1020px) {
+  .result{
+    margin: 0;
+    text-align: center;
+  }
+}
